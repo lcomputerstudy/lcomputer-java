@@ -3,10 +3,10 @@ package com.lcomputerstudy.book.java.ch1;
 public class Variable2 {
 
 	public static void main(String[] args) {
-		byte b = 1;			// 정수형 (메모리 크기: 1byte, 표현 범위: -128 ~ 127)
-		short s = 2;		// 정수형 (메모리 크기: 2byte, 표현 범위: -32,768 ~ 32,767)
-		int i = 3;			// 정수형 (메모리 크기: 4byte, 표현 범위: -2,147,483,648 ~ 2,147,483,647)
-		long l = 4L;		// 정수형 (메모리 크기: 8byte, 표현 범위: -9,223,372,036,854,775,808 ~ 9,223,372,036,854,775,807)
+		byte b = 1;			// 정수형 (메모리 크기: 1Byte, 표현 범위: -128 ~ 127)
+		short s = 2;		// 정수형 (메모리 크기: 2Byte, 표현 범위: -32,768 ~ 32,767)
+		int i = 3;			// 정수형 (메모리 크기: 4Byte, 표현 범위: -2,147,483,648 ~ 2,147,483,647)
+		long l = 4L;		// 정수형 (메모리 크기: 8Byte, 표현 범위: -9,223,372,036,854,775,808 ~ 9,223,372,036,854,775,807)
 		
 		System.out.println(s);
 		s = 32767;
@@ -16,8 +16,8 @@ public class Variable2 {
 		System.out.println(s);
 		// s = -32769;		// 표현 범위를 벗어났기 때문에 컴파일 에러가 발생한다.
 		
-		float f = 5.333333f;			// 실수형 (메모리 크기: 4byte, 7자리까지 표현 가능)
-		double d = 7.777777777777777;	// 실수형 (메모리 크기: 8byte, 16자리까지 표현 가능)
+		float f = 5.333333f;			// 실수형 (메모리 크기: 4Byte, 7자리까지 표현 가능)
+		double d = 7.777777777777777;	// 실수형 (메모리 크기: 8Byte, 16자리까지 표현 가능)
 		System.out.println(f);			// 7자리 모두 정확하게 표현된다.
 		System.out.println(d);			// 16자리 모두 정확하게 표현된다.
 		
@@ -38,7 +38,18 @@ public class Variable2 {
 		int i3 = 789_235_678;			// 숫자가 너무 길어 헷갈릴 때 _를 이용해 보기 쉽게 표현할 수 있다.
 		System.out.println(i3);
 		
-		// 리터럴, f, l 에 대해서 설명 (22.4.28)
+		boolean isChecked;				// true, false 두 가지 값만 가질 수 있는 데이터 타입이다.
+		isChecked = true;				// 참
+		System.out.println(isChecked);
+		isChecked = false;				// 거짓
+		System.out.println(isChecked);
+		
+		char ch = 97;					// 정수형 (메모리 크기: 2Byte, 0 ~ 65535 사이의 숫자를 가질 수 있다.)
+		System.out.println(ch);			// 유니코드의 97번에 해당하는 문자를 출력
+		ch = 70;
+		System.out.println(ch);			// 유니코드의 70번은 대문자 F인 것을 알 수 있다.
+		ch = 'L';						// 유니코드에서 L 에 해당하는 숫자로 변환되어 저장된다.
+		System.out.println(ch);			// char 변수에 저장된 숫자를 유니코드에서 찾아 해당 문자를 출력한다.
 	}
 
 }
@@ -65,6 +76,7 @@ public class Variable2 {
  * 
  * 		- 몰라도 되는 부분 -  실수는 부호, 가수, 지수를 이용해 표현하게 되는데 지수를 이용해 소수점을 이동시켜 표현하기 때문에 부동소수점 수라고 부른다. 
  * 
+ * 유니코드란 문자표이 *** 작업중 
  * 		
  * bit는 컴퓨터에서 데이터를 표현할 때 사용되는 최소 단위이다.
  * 		1 bit 는 0 또는 1을 표현할 수 있다.
