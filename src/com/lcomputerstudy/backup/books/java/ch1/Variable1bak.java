@@ -1,6 +1,6 @@
-package com.lcomputerstudy.book.java.ch1;
+package com.lcomputerstudy.backup.books.java.ch1;
 
-public class Variable1 {
+public class Variable1bak {
 
 	public static void main(String[] args) {
 		int a;			// 변수를 사용하겠다고 선언 (int 에 대해서는 아래에서 설명)

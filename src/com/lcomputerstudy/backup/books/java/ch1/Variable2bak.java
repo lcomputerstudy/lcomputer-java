@@ -1,6 +1,6 @@
-package com.lcomputerstudy.book.java.ch1;
+package com.lcomputerstudy.backup.books.java.ch1;
 
-public class Variable2 {
+public class Variable2bak {
 
 	public static void main(String[] args) {
 		byte b = 1;			// 정수형 (메모리 크기: 1Byte, 표현 범위: -128 ~ 127)
