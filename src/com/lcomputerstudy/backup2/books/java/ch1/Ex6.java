@@ -1,4 +1,4 @@
-package com.lcomputerstudy.books.java.ch1;
+package com.lcomputerstudy.backup2.books.java.ch1;
 
 // 변수의 타입
 public class Ex6 {

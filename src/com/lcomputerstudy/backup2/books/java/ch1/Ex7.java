@@ -1,4 +1,4 @@
-package com.lcomputerstudy.books.java.ch1;
+package com.lcomputerstudy.backup2.books.java.ch1;
 
 // 리터럴과 형변환
 public class Ex7 {
@@ -63,6 +63,9 @@ public class Ex7 {
 		//char ch3 = i8;
 		char ch3 = (char)i8;
 		System.out.println(ch3);
+		
+		char ch4 = '\u0061';
+		System.out.println(ch4);
 	}
 
 }

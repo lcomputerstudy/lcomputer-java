@@ -1,4 +1,4 @@
-package com.lcomputerstudy.books.java.ch1;
+package com.lcomputerstudy.backup2.books.java.ch1;
 
 // 변수
 public class Ex3 {
