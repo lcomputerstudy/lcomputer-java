@@ -1,7 +1,7 @@
-package com.lcomputerstudy.backup2.books.java.ch1;
+package com.lcomputerstudy.books.java.ch5;
 
 // 배열
-public class Ex8 {
+public class Ex1Array {
 
 	public static void main(String[] args) {
 		int[] a;

@@ -1,7 +1,7 @@
-package com.lcomputerstudy.backup2.books.java.ch1;
+package com.lcomputerstudy.books.java.ch5;
 
 // 다차원 배열
-public class Ex9 {
+public class Ex2Array {
 
 	public static void main(String[] args) {
 		int arr[][] = new int[3][2];
