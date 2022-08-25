@@ -1,6 +1,7 @@
 package com.lcomputerstudy.books.java.ch1;
 
-public class Ex5Printf {
+// 출력
+public class Ex6Printf {
 
 	public static void main(String[] args) {
 		int balance = 1000;

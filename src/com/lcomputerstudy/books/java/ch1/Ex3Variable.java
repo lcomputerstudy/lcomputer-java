@@ -1,5 +1,6 @@
 package com.lcomputerstudy.books.java.ch1;
 
+// 변수
 public class Ex3Variable {
 
 	public static void main(String[] args) {

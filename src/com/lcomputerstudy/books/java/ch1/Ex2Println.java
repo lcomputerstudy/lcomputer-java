@@ -1,5 +1,6 @@
 package com.lcomputerstudy.books.java.ch1;
 
+// 출력
 public class Ex2Println {
 
 	public static void main(String[] args) {
