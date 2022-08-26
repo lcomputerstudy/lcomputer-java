@@ -1,4 +1,4 @@
-package com.lcomputerstudy.books.java.ch2;
+package com.lcomputerstudy.books.java.ch3;
 
 // 산술 연산자
 public class Ex1ArithmeticOperator {

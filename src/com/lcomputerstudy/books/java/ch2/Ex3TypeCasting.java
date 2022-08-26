@@ -1,7 +1,7 @@
-package com.lcomputerstudy.books.java.ch3;
+package com.lcomputerstudy.books.java.ch2;
 
 // 기본형 변수 형변환(캐스팅)
-public class Ex2TypeCasting {
+public class Ex3TypeCasting {
 
 	public static void main(String[] args) {
 		double d = 3.14;

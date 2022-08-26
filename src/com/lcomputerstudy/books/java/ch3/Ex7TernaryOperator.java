@@ -1,7 +1,7 @@
-package com.lcomputerstudy.books.java.ch2;
+package com.lcomputerstudy.books.java.ch3;
 
 // 삼항연산자
-public class Ex8TernaryOperator {
+public class Ex7TernaryOperator {
 
 	public static void main(String[] args) {
 		int score = 75;

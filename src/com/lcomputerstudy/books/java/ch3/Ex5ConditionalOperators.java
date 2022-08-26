@@ -1,7 +1,7 @@
-package com.lcomputerstudy.books.java.ch2;
+package com.lcomputerstudy.books.java.ch3;
 
 // 조건 연산자
-public class Ex6ConditionalOperators {
+public class Ex5ConditionalOperators {
 
 	public static void main(String[] args) {
 		int a = 3;

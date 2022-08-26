@@ -1,7 +1,7 @@
-package com.lcomputerstudy.books.java.ch2;
+package com.lcomputerstudy.books.java.ch3;
 
 // 할당 연산자
-public class Ex9AssignmentOperator {
+public class Ex8AssignmentOperator {
 
 	public static void main(String[] args) {
 		int sum = 20;

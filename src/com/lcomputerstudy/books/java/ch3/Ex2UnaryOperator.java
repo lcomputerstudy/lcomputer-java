@@ -1,4 +1,4 @@
-package com.lcomputerstudy.books.java.ch2;
+package com.lcomputerstudy.books.java.ch3;
 
 // 단항 연산자
 public class Ex2UnaryOperator {

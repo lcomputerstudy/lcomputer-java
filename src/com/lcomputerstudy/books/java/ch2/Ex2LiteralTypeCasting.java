@@ -1,7 +1,7 @@
-package com.lcomputerstudy.books.java.ch3;
+package com.lcomputerstudy.books.java.ch2;
 
 // 리터럴 형변환(캐스팅)
-public class Ex1LiteralTypeCasting {
+public class Ex2LiteralTypeCasting {
 
 	public static void main(String[] args) {
 		System.out.println("5 / 2 = " + 5/2);

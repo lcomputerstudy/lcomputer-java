@@ -1,7 +1,7 @@
 package com.lcomputerstudy.books.java.ch2;
 
 // 기본 데이터 타입 (기본형)
-public class Ex4PrimitiveDataType {
+public class Ex1PrimitiveDataType {
 
 	public static void main(String[] args) {
 		System.out.println("정수형\n---");

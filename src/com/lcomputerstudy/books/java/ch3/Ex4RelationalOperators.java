@@ -1,7 +1,7 @@
-package com.lcomputerstudy.books.java.ch2;
+package com.lcomputerstudy.books.java.ch3;
 
 // 관계 연산자
-public class Ex5RelationalOperators {
+public class Ex4RelationalOperators {
 
 	public static void main(String[] args) {
 		int a = 3, b = 7;
