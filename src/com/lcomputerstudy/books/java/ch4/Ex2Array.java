@@ -1,6 +1,6 @@
-package com.lcomputerstudy.books.java.ch5;
+package com.lcomputerstudy.books.java.ch4;
 
-// 다차원 배열
+// 2차원 배열 (다차원 배열)
 public class Ex2Array {
 
 	public static void main(String[] args) {

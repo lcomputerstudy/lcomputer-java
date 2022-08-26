@@ -1,4 +1,4 @@
-package com.lcomputerstudy.books.java.ch5;
+package com.lcomputerstudy.books.java.ch4;
 
 // 배열
 public class Ex1Array {

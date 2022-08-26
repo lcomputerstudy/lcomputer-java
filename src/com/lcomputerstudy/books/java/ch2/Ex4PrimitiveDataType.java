@@ -77,7 +77,6 @@ public class Ex4PrimitiveDataType {
 		System.out.println(str);
 		str = "1~0, a~z, A-Z, !@#$%^";
 		System.out.println(str);
-		
 	}
 
 }
