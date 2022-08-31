@@ -1,7 +1,7 @@
 package com.lcomputerstudy.books.java.ch6;
 
 // 중첩 for문
-public class Ex3NestedForLoop {
+public class Ex5NestedForLoop {
 
 	public static void main(String[] args) {
 		for (int i=1; i<=6; i++) {

@@ -44,6 +44,18 @@ public class Ex2Array {
 		System.out.print("1반 철수: " + arr3[0][1][0] + "," + arr3[0][1][1] + "\n");
 		System.out.print("2반 둘리: " + arr3[1][0][0] + "," + arr3[0][0][1] + "\n");
 		System.out.print("2반 길동: " + arr3[1][1][0] + "," + arr3[1][1][1] + "\n");
+		System.out.println();
+		
+		int[][] arr4 = {
+				{1, 3, 5},
+				{7, 9},
+				{10, 11, 12, 13}
+			};
+		
+		System.out.println("2차원 배열의 길이: " + arr4.length);
+		System.out.println("1차원 배열의 길이: " + arr4[0].length);
+		System.out.println("1차원 배열의 길이: " + arr4[1].length);
+		System.out.println("1차원 배열의 길이: " + arr4[2].length);
 	}
 
 }
