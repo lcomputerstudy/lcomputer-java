@@ -82,7 +82,9 @@ public class Ex1PrimitiveDataType {
 }
 
 /* 
-
-문제 1. 500원짜리 TV
-
+문제1.
+int i = 3.14;
+float f = 7.77; 
+boolean b = 5;
+오류가 나지 않도록 수정 후 출력하세요.
 */ 

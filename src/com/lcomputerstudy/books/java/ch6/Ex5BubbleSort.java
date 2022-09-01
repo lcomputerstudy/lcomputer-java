@@ -2,7 +2,7 @@ package com.lcomputerstudy.books.java.ch6;
 
 import java.util.Arrays;
 
-public class Ex6BubbleSort {
+public class Ex5BubbleSort {
 
 	public static void main(String[] args) {
 		int[] arr = {9, 7, 2, 20, 5};

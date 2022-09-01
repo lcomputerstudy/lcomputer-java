@@ -1,7 +1,7 @@
 package com.lcomputerstudy.books.java.ch3;
 
-// 삼항연산자
-public class Ex7TernaryOperator {
+// 삼항연산자 (조건연산자)
+public class Ex7ConditionalOperators {
 
 	public static void main(String[] args) {
 		int score = 75;
@@ -15,3 +15,8 @@ public class Ex7TernaryOperator {
 	}
 
 }
+
+/*
+문제 1.
+삼항연산자를 사용하여 사용자로 부터 입력 받은 값이 음수인지 양수인지 0인지를 출력하는 코드를 작성하세요.
+*/ 

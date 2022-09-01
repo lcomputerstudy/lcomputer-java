@@ -10,6 +10,8 @@ public class Ex3TypeCasting {
 		// float f = 3.14;	// 에러
 		float f = 3.14f;
 		System.out.println("float f = " + f);
+		float ff = (float)3.14;
+		System.out.println("float ff = " + f);
 		
 		double d2 = 7.12f;
 		System.out.println("double d2 = " + d2);
@@ -19,6 +21,10 @@ public class Ex3TypeCasting {
 		System.out.println(i + "/" + i2 + "=" + i/i2);
 		System.out.println(i + "/" + i2 + "=" + i/(float)i2);
 		System.out.println(i + "/" + i2 + "=" + i/(double)i2);
+		
+		float fff = 3.14f;
+		int ii = (int)fff;
+		System.out.println("int ii = " + ii);
 		
 		int i3 = 7;
 		long l = i3;
@@ -45,3 +51,11 @@ public class Ex3TypeCasting {
 	}
 
 }
+
+/*
+문제 1.
+long a = 300L;
+int b;
+b에 a를 대입한 뒤 출력하세요.
+힌트) 형변환을 이용해야 합니다.
+*/
