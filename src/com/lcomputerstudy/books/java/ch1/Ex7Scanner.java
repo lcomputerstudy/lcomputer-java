@@ -3,7 +3,7 @@ package com.lcomputerstudy.books.java.ch1;
 import java.util.Scanner;
 
 // 입력
-public class Ex76Scanner {
+public class Ex7Scanner {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
