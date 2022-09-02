@@ -1,7 +1,7 @@
 package com.lcomputerstudy.books.java.ch6;
 
 // for문
-public class Ex1ForLoop {
+public class Ex1For {
 
 	public static void main(String[] args) {
 		for (int i=1; i<=3; i++) {
