@@ -23,7 +23,7 @@ public class Ex5ClassVariable {
 		b2.printInfo();
 		System.out.println();
 		
-		b1.tax = 1.5f;
+		b1.tax = 1.5f;		// 경고
 		b1.printInfo();
 		b2.printInfo();
 	}
