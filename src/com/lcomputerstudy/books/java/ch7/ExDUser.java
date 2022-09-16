@@ -1,10 +1,10 @@
 package com.lcomputerstudy.books.java.ch7;
 
-public class ExDPerson {
+public class ExDUser {
 	String name;
 	int age;
 	
-	ExDPerson(String name, int age) {
+	ExDUser(String name, int age) {
 		this.name = name;
 		this.age = age;
 	}

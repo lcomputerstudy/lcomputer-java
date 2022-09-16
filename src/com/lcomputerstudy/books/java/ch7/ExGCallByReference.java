@@ -7,7 +7,7 @@ public class ExGCallByReference {
 		
 		System.out.println("책 소유자: " + book.owner);
 		
-		ExFPerson2 person2 = new ExFPerson2("홍길동", 29);
+		ExFUser2 person2 = new ExFUser2("홍길동", 29);
 		person2.sign(book);
 		
 		System.out.println("책 소유자: " + book.owner);

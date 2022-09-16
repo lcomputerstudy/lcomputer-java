@@ -7,7 +7,7 @@ public class ExECallByValue {
 		
 		System.out.println("책 소유자: " + book.owner);
 		
-		ExDPerson person = new ExDPerson("홍길동", 29);
+		ExDUser person = new ExDUser("홍길동", 29);
 		person.sign(book.owner);
 		
 		System.out.println("책 소유자: " + book.owner);
