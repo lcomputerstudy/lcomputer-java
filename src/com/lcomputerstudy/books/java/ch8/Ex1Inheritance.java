@@ -42,6 +42,7 @@ class Book {
 	}
 }
 
+// IS-A Relationship
 class EBook extends Book {
 	String[] supportDevices;
 	
@@ -67,3 +68,11 @@ class PaperBook extends Book {
 	}
 	
 }
+
+/*
+문제 1.
+생각나는 개체를 클래스로 만들되 부모 자식 클래스로 나누어 주세요.
+자식 클래스는 두 개 이상 만들어 주세요. 
+모든 클래스에 속성(인스턴스 변수)과 기능(메소드)을 하나 이상 만들어 주세요. 
+*/
+

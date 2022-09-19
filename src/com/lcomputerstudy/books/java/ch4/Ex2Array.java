@@ -4,6 +4,13 @@ package com.lcomputerstudy.books.java.ch4;
 public class Ex2Array {
 
 	public static void main(String[] args) {
+		/*
+		{
+			{70, 80},
+			{30, 90},
+			{100, 20}
+		}
+		*/
 		int arr[][] = new int[3][2];
 		arr[0][0] = 70;
 		arr[0][1] = 80;
