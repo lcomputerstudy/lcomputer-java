@@ -1,6 +1,6 @@
 package com.lcomputerstudy.books.java.ch8;
 
-// 상속
+// 상속성
 public class Ex1Inheritance {
 
 	public static void main(String[] args) {

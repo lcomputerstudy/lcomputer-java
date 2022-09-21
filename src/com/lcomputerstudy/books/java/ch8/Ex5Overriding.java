@@ -1,5 +1,6 @@
 package com.lcomputerstudy.books.java.ch8;
 
+// 오버라이딩 (다형성)
 public class Ex5Overriding {
 
 	public static void main(String[] args) {

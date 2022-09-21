@@ -1,5 +1,6 @@
 package com.lcomputerstudy.books.java.ch7;
 
+// 메소드 오버로딩 (다형성)
 public class Ex8MethodOverloading {
 
 	public static void main(String[] args) {
