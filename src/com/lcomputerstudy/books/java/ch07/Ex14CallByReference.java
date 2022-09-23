@@ -16,5 +16,5 @@ public class Ex14CallByReference {
 
 /*
 문제 1.
-call by reference 를 설명할 수 있는 책의 금액을 변경하는 메소드를 작성하세요.
+call by reference 를 이용해 책의 금액을 수정하는 메소드를 코딩하세요.
 */
