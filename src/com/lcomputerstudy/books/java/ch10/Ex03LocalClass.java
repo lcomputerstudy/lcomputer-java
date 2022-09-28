@@ -1,5 +1,6 @@
 package com.lcomputerstudy.books.java.ch10;
 
+// 로컬 클래스 (지역 클래스)
 public class Ex03LocalClass {
 
 	public static void main(String[] args) {

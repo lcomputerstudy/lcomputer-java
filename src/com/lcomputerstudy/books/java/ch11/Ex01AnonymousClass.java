@@ -1,5 +1,6 @@
 package com.lcomputerstudy.books.java.ch11;
 
+// 익명 클래스
 public class Ex01AnonymousClass {
 
 	public static void main(String[] args) {
