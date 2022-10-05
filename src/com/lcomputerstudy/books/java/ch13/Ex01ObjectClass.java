@@ -47,4 +47,17 @@ class Book2 {
 	public String toString() {
 		return "제목: " + title + ", 저자: " + author;
 	}
+	
+	public static void print(Object o) {
+		//System.out.println("제목: " + o.title + ", 저자: " + o.author);
+	}
 }
+
+/*
+문제 1.
+print 메소드의 주석 처리된 부분을 수정하여 오류 없이 출력하도록 수정하세요.
+힌트) 업캐스팅을 사용하세요.
+
+문제 2.
+Book 클래스에 toString 메소드를 오버라이딩 하여 해시코드가 아닌 인스턴스 변수의 내용이 출력되도록 코딩하세요.
+*/
