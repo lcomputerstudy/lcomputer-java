@@ -7,13 +7,11 @@ import java.time.Period;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 import java.time.temporal.TemporalAdjusters;
+import java.time.DayOfWeek;
+import java.time.Duration;
 import java.util.Scanner;
 
 import static java.time.temporal.ChronoUnit.YEARS;
-
-import java.time.DayOfWeek;
-import java.time.Duration;
-
 import static java.time.temporal.ChronoUnit.MONTHS;
 import static java.time.temporal.ChronoUnit.DAYS;
 import static java.time.temporal.ChronoUnit.HOURS;
@@ -150,3 +148,12 @@ public class Ex03LocalDate {
 	}
 
 }
+/*
+문제 1.
+2000년 12월 1일 
+2020년 5월 6일 
+두 날짜 간의 차이를 계산하여 n년 n일과 같은 패턴으로 출력하세요. 
+
+문제 2.
+yyyy년MM월dd 패턴으로 입력 받아 1개월 뒤의 날짜를 yyyy/MM/dd HH:mm:ss 패턴으로 출력하세요.
+*/
