@@ -10,9 +10,13 @@ public class Ex02Polymorphism {
 		EBook2 ebook = new EBook2();
 		ebook.setTitle("자바 알고리즘");
 		
+		ComicBook cbook = new ComicBook();
+		cbook.setTitle("만화로 배우는 자바");
+		
 		Cart cart = new Cart();
 		cart.add(book);
 		cart.add(ebook);
+		cart.add(cbook);
 		
 		cart.printList();
 	}
@@ -31,7 +35,7 @@ class Book2 {
 	
 }
 
-class EBook2 extends Book2{
+class EBook2 extends Book2 {
 	private String fontColor;
 
 	public String getFontColor() {
@@ -45,6 +49,24 @@ class EBook2 extends Book2{
 	public String getTitle() {
 		return "[e북]" + title;
 	}
+	
+}
+
+class ComicBook extends Book2 {
+	private boolean color;
+
+	public boolean isColor() {
+		return color;
+	}
+	public void setColor(boolean color) {
+		this.color = color;
+	}
+	
+	@Override
+	public String getTitle() {
+		return "[만화책]" + title;
+	}
+	
 	
 }
 
