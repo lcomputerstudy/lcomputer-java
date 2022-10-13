@@ -11,7 +11,7 @@ public class Ex02Generics {
 		Book2 b2 = new Book2("자바 자료구조", "엘컴퓨터학원");
 		Book2 b3 = new Book2("자바 알고리즘", "엘코딩연구소");
 		
-		Cart2<Book2> cart = new Cart2<Book2>();
+		Cart2<Book2> cart = new Cart2<Book2>();		// 타입 아규먼트
 		cart.add(b1);
 		cart.add(b2);
 		cart.add(b3);
@@ -72,7 +72,7 @@ class Car {
 	}
 }
 
-class Cart2<T> {
+class Cart2<T> {	// <T> 타입 파라미터 (또는 타입 변수)
 	private List<T> items;
 	
 	public Cart2() {
@@ -96,3 +96,9 @@ class Cart2<T> {
 		}
 	}
 }
+
+/*
+문제 1.
+상자에 연필과 티비를 담는 프로그램을 코딩하세요.
+상자에는 연필, 티비 외에 어떠한 타입도 받을 수 있도록 타입 파라미터를 사용하세요. 
+*/

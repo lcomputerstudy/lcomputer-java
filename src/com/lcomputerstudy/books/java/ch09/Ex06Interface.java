@@ -264,5 +264,6 @@ interface PrintServiceForPrinter extends PrintService {
 
 문제 2.
 출고 기능을 코딩하세요.
+출고 메소드는 배열에 담겨 있는 해당 재고를 제거하는 방식으로 작성하세요.
 출고후 창고에 남아있는 재고의 정보를 출력하세요.
 */
