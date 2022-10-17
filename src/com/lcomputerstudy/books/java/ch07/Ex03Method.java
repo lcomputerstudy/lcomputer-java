@@ -17,7 +17,7 @@ public class Ex03Method {
 		
 		book2.printInfo();
 		
-		book2.setPrice(20000);
+		book2.setPrice(20000);	// 아규먼트 (인자)
 		book2.printInfo();
 		
 		book2.setPrice(30000, 1.2f);
@@ -45,7 +45,7 @@ class Book2 {
 		System.out.println("---------------");
 	}
 	
-	void setPrice(int parameterPrice) {
+	void setPrice(int parameterPrice) {		// 파라미터 (매개변수)
 		price = (int)(parameterPrice * 1.1f);
 	}
 	

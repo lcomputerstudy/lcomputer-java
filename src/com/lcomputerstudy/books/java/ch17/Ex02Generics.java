@@ -72,7 +72,7 @@ class Car {
 	}
 }
 
-class Cart2<T> {	// <T> 타입 파라미터 (또는 타입 변수)
+class Cart2<T> {	// <T> 타입 파라미터
 	private List<T> items;
 	
 	public Cart2() {
