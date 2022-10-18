@@ -3,7 +3,7 @@ package com.lcomputerstudy.books.java.ch06;
 // for문
 public class Ex01For {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		for (int i=1; i<=3; i++) {
 			System.out.println("i는 " + i + "입니다.");
 		}

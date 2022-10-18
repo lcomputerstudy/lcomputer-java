@@ -4,7 +4,7 @@ package com.lcomputerstudy.books.java.ch09;
 public class Ex01Upcasting {
 
 	public static void main(String[] args) {
-		Book book = null;
+		Book book = null; 
 		book = new Book();
 		book.setTitle("자바 기본문법");
 		System.out.println(book.getTitle());

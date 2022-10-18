@@ -1,6 +1,6 @@
 package com.lcomputerstudy.books.java.ch15;
 
-import java.util.Scanner;
+import java.util.Scanner; 
 
 public class Ex01WrapperClass {
 

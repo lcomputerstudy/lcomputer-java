@@ -3,7 +3,7 @@ package com.lcomputerstudy.books.java.ch12;
 import java.util.Scanner;
 
 // 예외처리
-public class Ex01TryCatch {
+public class Ex01TryCatch { 
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);

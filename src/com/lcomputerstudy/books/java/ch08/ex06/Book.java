@@ -4,7 +4,7 @@ public class Book {
 	public String title;
 	private String author;
 	private int price;
-	private int dollarPrice;
+	private int dollarPrice; 
 	int edition;
 	protected float tax;
 	

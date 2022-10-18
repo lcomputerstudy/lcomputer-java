@@ -3,7 +3,7 @@ package com.lcomputerstudy.books.java.ch08;
 // 상속성
 public class Ex01Inheritance {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		Book book = new Book();
 		book.price = 50000;
 		System.out.println("책의 가격은(세금포함): " + book.getPrice());

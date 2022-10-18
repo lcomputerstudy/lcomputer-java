@@ -3,7 +3,7 @@ package com.lcomputerstudy.books.java.ch05;
 // if문
 public class Ex01If {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		int level = 3;
 		String name = "익명";
 		

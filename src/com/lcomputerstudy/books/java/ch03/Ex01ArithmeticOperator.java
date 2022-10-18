@@ -3,7 +3,7 @@ package com.lcomputerstudy.books.java.ch03;
 // 산술 연산자
 public class Ex01ArithmeticOperator {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		System.out.printf("3 + 7 = %d%n", 3+7);
 		System.out.printf("7 - 5 = %d%n", 7-5);
 		System.out.printf("7 * 5 = %d%n", 7*5);

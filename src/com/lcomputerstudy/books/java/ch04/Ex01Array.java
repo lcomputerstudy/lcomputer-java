@@ -3,7 +3,7 @@ package com.lcomputerstudy.books.java.ch04;
 // 배열
 public class Ex01Array {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		int[] a;
 		a = new int[3];
 		a[0] = 10;

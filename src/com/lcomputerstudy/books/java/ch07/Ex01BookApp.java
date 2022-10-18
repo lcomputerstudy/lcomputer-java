@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Ex01BookApp {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("도서관리 프로그램");
 

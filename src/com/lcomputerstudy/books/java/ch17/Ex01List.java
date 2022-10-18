@@ -141,7 +141,7 @@ class Cart {
 		}
 	}
 	
-	public static void removeWithForEach(List<Book> books) {
+	public static void removeWithForEach(List<Book> books) { 
 		try {
 			for (Book book : books) {		// Iterable
 				books.remove(book);

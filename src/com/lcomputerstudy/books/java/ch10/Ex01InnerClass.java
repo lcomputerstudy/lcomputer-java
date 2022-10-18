@@ -3,7 +3,7 @@ package com.lcomputerstudy.books.java.ch10;
 // 이너 클래스 (내부 클래스)
 public class Ex01InnerClass {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		EBook book = new EBook();
 		book.setTitle("자바 알고리즘");
 		book.setAuthor("엘컴퓨터학원");

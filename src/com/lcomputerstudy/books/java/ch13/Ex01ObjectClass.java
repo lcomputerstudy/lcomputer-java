@@ -1,7 +1,7 @@
 package com.lcomputerstudy.books.java.ch13;
 
 public class Ex01ObjectClass {
-
+ 
 	public static void main(String[] args) {
 		Object o = null;
 		o = new Object();

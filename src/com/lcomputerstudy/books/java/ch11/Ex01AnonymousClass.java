@@ -3,7 +3,7 @@ package com.lcomputerstudy.books.java.ch11;
 // 익명 클래스
 public class Ex01AnonymousClass {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		Book b1 = new Book();
 		b1.setTitle("자바 익명클래스란");
 		b1.setAuthor("엘컴퓨터학원");

@@ -4,7 +4,7 @@ package com.lcomputerstudy.books.java.ch02;
 public class Ex01PrimitiveDataType {
 
 	public static void main(String[] args) {
-		System.out.println("정수형\n---");
+		System.out.println("정수형\n---"); 
 		
 		byte b = -128;
 		//b = -129;

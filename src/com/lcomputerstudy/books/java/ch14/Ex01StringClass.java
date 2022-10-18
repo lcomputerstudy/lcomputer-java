@@ -1,6 +1,6 @@
 package com.lcomputerstudy.books.java.ch14;
 
-public class Ex01StringClass {
+public class Ex01StringClass { 
 
 	public static void main(String[] args) {
 		String s1 = "엘컴퓨터학원";		// String 리터럴
