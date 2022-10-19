@@ -18,6 +18,13 @@ public class Ex05AbstractClass {
 		eb.setPrice(30000);
 		eb.setFontColor("블루");
 		eb.print();
+		
+		System.out.println();
+		
+		Bookcase bc = new Bookcase();
+		bc.add(pb);
+		bc.add(eb);
+		bc.printBooks();
 	}
 
 }
@@ -102,6 +109,29 @@ class EBook4 extends Book5 {
 		System.out.println(title + ", " + getAuthor() + ", " + getPrice() + ", " + fontColor);
 	}
 	
+}
+
+class Bookcase {
+	private Book5[] books;
+	private int index;
+	
+	public Bookcase() {
+		books = new Book5[5];
+		index = 0;
+	}
+	
+	public void add(Book5 book) {
+		books[index] = book;
+		index++;
+	}
+	
+	public void printBooks() {
+		for (int i=0; i<books.length; i++) {
+			if (books[i] == null)
+				return;
+			System.out.println(books[i].getTitle());
+		}
+	}
 }
 
 /*

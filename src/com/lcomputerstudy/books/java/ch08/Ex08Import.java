@@ -29,5 +29,5 @@ public class Ex08Import {
 /*
 문제 1.
 Math.floor() 메소드를 사용하여 PI의 정수값만 출력하세요.
-Math.floor() 메소드에 import static 을 적용하세요.
+Math.floor() 메소드에 import static 을 적용하세요. 
 */

@@ -23,5 +23,5 @@ public class Ex02UnaryOperator {
 
 문제 2.
 int a = 30;
-변수 a의 값을 음수로 출력하세요.
+변수 a의 값을 음수로 출력하세요. 
 */

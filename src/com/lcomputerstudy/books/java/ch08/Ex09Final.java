@@ -52,5 +52,5 @@ class EBook7 extends Book8 {
 Book8클래스에 getTitle 메소드를 추가하고 EBook7 클래스에서 getTitle 메소드를 오버라이딩 할 수 없도록 코딩하세요.
 
 문제2.
-EBook6 클래스가 Book7 클래스를 상속 받을 수 있도록 수정하세요.
+EBook6 클래스가 Book7 클래스를 상속 받을 수 있도록 수정하세요. 
 */

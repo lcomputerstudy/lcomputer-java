@@ -57,5 +57,5 @@ public class Ex03TypeCasting {
 long a = 300L;
 int b;
 b에 a를 대입한 뒤 출력하세요.
-힌트) 형변환을 이용해야 합니다.
+힌트) 형변환을 이용해야 합니다. 
 */

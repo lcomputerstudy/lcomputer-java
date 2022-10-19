@@ -144,3 +144,9 @@ class Photo extends Board {
 		return "Photo [title=" + getTitle() + ", content=" + getContent() + "photo=" + photo + "]";
 	}
 }
+
+/*
+문제 1.
+다이어리 클래스와 다이어리 서비스 클래스를 추가하세요. 
+다이어리 서비스를 사용해 printList2 와 printList3를 호출하는 코드를 작성하세요.
+*/ 

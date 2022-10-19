@@ -48,4 +48,4 @@ public class Book {
 	protected float getTax() {
 		return tax;
 	}
-}
+} 

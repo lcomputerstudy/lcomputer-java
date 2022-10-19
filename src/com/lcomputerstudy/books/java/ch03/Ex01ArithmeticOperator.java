@@ -21,5 +21,5 @@ public class Ex01ArithmeticOperator {
 
 /*
 문제 1.
-TV의 수량과 금액을 입력 받고 총액을 출력하세요.
+TV의 수량과 금액을 입력 받고 총액을 출력하세요. 
  */

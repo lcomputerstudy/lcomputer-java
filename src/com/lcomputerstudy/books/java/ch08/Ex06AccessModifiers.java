@@ -68,5 +68,4 @@ e북은 입력된 가격보다 5000원 낮은 금액으로 price가 설정되어
 setPrice 메소드 내에서 setDollarPrice 메소드를 호출하여 dollarPrice를 설정하세요.
 setDollarPrice 메소드는 상속관계가 아닌 클래스에서 접근할 수 없어야 합니다.
 힌트) setDollarPrice메소드와 dollarPrice 변수의 접근 제한자를 수정하세요.
-
 */

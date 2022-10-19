@@ -22,5 +22,5 @@ public class Ex08Swap {
 int a = 50;
 int b = 30;
 int c = 70;
-swap알고리즘을 사용하여 세 변수의 값을 바꿔 주세요.
+swap알고리즘을 사용하여 세 변수의 값을 바꿔 주세요. 
 */
