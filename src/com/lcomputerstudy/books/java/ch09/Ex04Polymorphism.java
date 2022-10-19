@@ -71,5 +71,5 @@ class Book4 extends Product {
 문제 1.
 Product 클래스에 두 인스턴스간의 크기를 비교하는 메소드인 compareProduct 메소드를 추가하세요.
 Book4 클래스에 compareProduct 메소드를 오버라이딩 후 가격이 높은 책의 인스턴스를 반환하도록 코딩하세요.
-반환된 인스턴스의 title을 출력하세요.
+반환된 인스턴스의 title을 출력하세요. 
 */
