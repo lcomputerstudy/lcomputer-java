@@ -16,7 +16,7 @@ public class Ex05MultipleBound {
 		b2.setAuthor("엘컴퓨터학원");
 		b2.setPrice(40000);
 		
-		Store<Book3> bookStore = new Store<>();
+		Store<Book3> bookStore = new Store<>();		// <> 다이아몬드 연산자
 		bookStore.add(b1);
 		bookStore.add(b2);
 		
