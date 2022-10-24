@@ -1,3 +1,6 @@
+/*
+ * Copyright 2022. 이신만 <rngooqw@gmail.com> All rights reserved.
+ */
 package com.lcomputerstudy.books.java.ch02;
 
 // 기본형 변수 형변환(캐스팅)

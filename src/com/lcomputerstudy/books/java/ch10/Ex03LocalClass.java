@@ -1,3 +1,6 @@
+/*
+ * Copyright 2022. 이신만 <rngooqw@gmail.com> All rights reserved.
+ */
 package com.lcomputerstudy.books.java.ch10;
 
 // 로컬 클래스 (지역 클래스)

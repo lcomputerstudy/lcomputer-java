@@ -1,3 +1,6 @@
+/*
+ * Copyright 2022. 이신만 <rngooqw@gmail.com> All rights reserved.
+ */
 package com.lcomputerstudy.books.java.ch02;
 
 // 기본 데이터 타입 (기본형)

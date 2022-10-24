@@ -1,3 +1,6 @@
+/*
+ * Copyright 2022. 이신만 <rngooqw@gmail.com> All rights reserved.
+ */
 package com.lcomputerstudy.books.java.ch10;
 
 // 스태틱 중첩 클래스 (정적 중첩 클래스)
