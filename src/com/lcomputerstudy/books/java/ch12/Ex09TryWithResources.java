@@ -24,7 +24,7 @@ public class Ex09TryWithResources {
 			BufferedReader br = new BufferedReader(fr);
 		) {
 			int data;
-			while ((data = fr.read()) != -1) {
+			while ((data = br.read()) != -1) {
 				char ch = (char)data;
 				System.out.print(ch);
 			}
@@ -43,7 +43,7 @@ public class Ex09TryWithResources {
 			br = new BufferedReader(fr);
 			
 			int data;
-			while ((data = fr.read()) != -1) {
+			while ((data = br.read()) != -1) {
 				char ch = (char)data;
 				System.out.print(ch);
 			}
