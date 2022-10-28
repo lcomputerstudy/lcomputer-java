@@ -29,24 +29,26 @@ public class Ex06Interface {
 		
 		OrderService orderService = new OrderService();
 		orderService.order(cart);
-		
-		PrintService printService;
+
+		PrintService printService = null;
 		printService = eb;
 		printService.printInfo();
 		
 		printService = car;
 		printService.printInfo();
+		
+		OrderService.orderPrint(eb);
+		OrderService.orderPrint(car);
+		
 		//printService.setting();
-		PrintServiceForPrinter pfp = (PrintServiceForPrinter)printService;
+		PrintServiceForPrinter pfp = (PrintServiceForPrinter)car;
 		pfp.setting();
 		PrintServiceForPrinter.getPrinterType();
 		pfp.setPrinter();
 		pfp.printInfo();
 		
-		//printService = book1;
+		//printService = book1;		// error
 		//printService.printInfo();
-		
-		
 	}
 
 }
@@ -120,7 +122,7 @@ class Book6 implements OrderItem {
 	
 }
 
-class EBook5 extends Book6 implements OrderItem, PrintService {
+class EBook5 extends Book6 implements PrintService {
 	private String fontColor;
 	
 	public String getFontColor() {
@@ -239,6 +241,10 @@ class OrderService {
 			System.out.println("상품명: " + items[i].getOrderName() + "\n가격: " + items[i].getOrderPrice() + "\n주문 데이터베이스에 저장되었습니다.\n");
 		}
 	}
+	
+	public static void orderPrint(PrintService p) {
+		p.printInfo();
+	}
 }
 
 interface PrintService {
@@ -264,10 +270,5 @@ interface PrintServiceForPrinter extends PrintService {
 창고에 저장될 재고의 정보는 상품명, 가격, 입고일자(String), 출고일자(String) 입니다.
 모든 상품이 재고 정보를 가지고 있지 않고 재고 인터페이스를 구현한 상품은 재고 정보를 가지고 있습니다.
 재고 인터페이스를 구현한 상품만 창고에 저장이 가능하도록 구현하세요. 
-힌트) 창고 클래스, 재고 인터페이스, 재고 인터페이스가 적용된 상품 클래스들, 재고들이 저장될 배열 등이 필요합니다. 
-
-문제 2.
-출고 기능을 코딩하세요.
-출고 메소드는 배열에 담겨 있는 해당 재고를 제거하는 방식으로 작성하세요.
-출고후 창고에 남아있는 재고의 정보를 출력하세요. 
+힌트) 창고 클래스, 재고 인터페이스, 재고 인터페이스가 적용된 상품 클래스들, 재고들이 저장될 배열 등이 필요합니다.  
 */
