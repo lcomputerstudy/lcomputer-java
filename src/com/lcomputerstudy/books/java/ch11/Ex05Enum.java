@@ -3,28 +3,28 @@
  */
 package com.lcomputerstudy.books.java.ch11;
 
-public class Ex04Enum {
+public class Ex05Enum {
 
 	public static void main(String[] args) {
 		Book2 b1 = new Book2();
 		b1.setTitle("자바 열거형");
 		b1.setAuthor("엘컴퓨터학원");
 		b1.setPrice(30000);
-		b1.setCountry(Ex03Country.KOREA);
+		b1.setCountry(Ex04Country.KOREA);
 		Book2.print(b1);
 		
 		Book2 b2 = new Book2();
 		b2.setTitle("Java Enum");
 		b2.setAuthor("lcomputerstudy");
 		b2.setPrice(30000);
-		b2.setCountry(Ex03Country.USA);
+		b2.setCountry(Ex04Country.USA);
 		Book2.print(b2);
 		
 		Book2 b3 = new Book2();
 		b3.setTitle("Java Enum");
 		b3.setAuthor("lcomputerstudy");
 		b3.setPrice(30000);
-		b3.setCountry(Ex03Country.ETC);
+		b3.setCountry(Ex04Country.ETC);
 		Book2.print(b3);
 	}
 
@@ -34,13 +34,13 @@ class Book2 {
 	private String title;
 	private String author;
 	private int price;
-	private Ex03Country country;
+	private Ex04Country country;
 	
-	public Ex03Country getCountry() {
+	public Ex04Country getCountry() {
 		return country;
 	}
 
-	public void setCountry(Ex03Country country) {
+	public void setCountry(Ex04Country country) {
 		this.country = country;
 	}
 	

@@ -3,7 +3,7 @@
  */
 package com.lcomputerstudy.books.java.ch11;
 
-public enum Ex03Country {
+public enum Ex04Country {
 	KOREA(82, 1.1f), 
 	USA(1, 1.2f),
 	UK(44, 1.3f),
@@ -12,7 +12,7 @@ public enum Ex03Country {
 	private final int code;
 	private final float tax;
 	
-	Ex03Country(int code, float tax) {
+	Ex04Country(int code, float tax) {
 		this.code = code;
 		this.tax = tax;
 	}

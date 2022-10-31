@@ -74,7 +74,7 @@ public class Ex03Collection {
 		Box.getBooksForEach(linkedHashMap);
 		System.out.println();
 		
-		System.out.println("- 뒤에서부터 삭제 -");
+		System.out.println("- 맨 뒤부터 삭제 -");
 		Box.removeBooksLast(arrayList);
 		Box.removeBooksLast(linkedList);
 		System.out.println();
@@ -83,7 +83,7 @@ public class Ex03Collection {
 		Box.init(arrayList);
 		Box.init(linkedList);
 		
-		System.out.println("- 앞에서부터 삭제 -");
+		System.out.println("- 맨 앞부터 삭제 -");
 		Box.removeBooksStart(arrayList);
 		Box.removeBooksStart(linkedList);
 		System.out.println();
@@ -92,7 +92,7 @@ public class Ex03Collection {
 		Box.init(arrayList);
 		Box.init(linkedList);
 		
-		System.out.println("- 뒤에서부터 삭제 ListIterator -");
+		System.out.println("- 맨 뒤부터 삭제 ListIterator -");
 		Box.removeBooksIteratorLast(arrayList);
 		Box.removeBooksIteratorLast(linkedList);
 		System.out.println();
@@ -101,7 +101,7 @@ public class Ex03Collection {
 		Box.init(arrayList);
 		Box.init(linkedList);
 		
-		System.out.println("- 앞에서부터 삭제 Iterator -");
+		System.out.println("- 맨 앞부터 삭제 Iterator -");
 		Box.removeBooksIterator(arrayList);
 		Box.removeBooksIterator(linkedList);
 		Box.removeBooksIterator(hashSet);
@@ -238,7 +238,7 @@ class Box {
 		return time;
 	}
 	
-	// 끝에서 부터 삭제
+	// 맨 뒤부터 삭제
 	public static long removeBooksLast(List<Integer> books) {
 		long startTime = System.currentTimeMillis();
 		for (int i=books.size()-1; i>=0; i--) {
@@ -250,7 +250,7 @@ class Box {
 		return time;
 	}
 	
-	// 처음 부터 삭제
+	// 맨 앞부터 삭제
 	public static long removeBooksStart(List<Integer> books) {
 		long startTime = System.currentTimeMillis();
 		for (int i=0; i<books.size(); i++) {
@@ -262,7 +262,7 @@ class Box {
 		return time;
 	}
 	
-	// 뒤에서부터 삭제 Iterator
+	// 맨 뒤부터 삭제 Iterator
 	public static long removeBooksIteratorLast(List<Integer> books) {
 		long startTime = System.currentTimeMillis();
 		for (ListIterator<Integer> it = books.listIterator(books.size()); it.hasPrevious(); ) {
@@ -275,7 +275,7 @@ class Box {
 		return time;
 	}
 	
-	// 삭제 Iterator
+	// 맨 앞부터 삭제 Iterator
 	public static long removeBooksIterator(Collection<Integer> books) {
 		long startTime = System.currentTimeMillis();
 		for (Iterator<Integer> it = books.iterator(); it.hasNext(); ) {
