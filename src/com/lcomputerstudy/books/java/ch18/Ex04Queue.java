@@ -16,8 +16,11 @@ public class Ex04Queue {
 		QueueTicketDispenser.getTakeNum();
 		QueueTicketDispenser.getTakeNum();
 		
-		Restaurant.printQueue();
+		System.out.println("첫 번째 손님은 " + Restaurant.firstGuest() + "번 손님입니다.");
+		System.out.println();
 		
+		Restaurant.printQueue();
+				
 		while (Restaurant.q.size() > 0) {
 			Restaurant.serving();
 		}
@@ -52,6 +55,10 @@ class Restaurant {
 			System.out.println(num + "번 손님");
 		}
 		System.out.println();
+	}
+	
+	public static int firstGuest() {
+		return q.peek();
 	}
 }
 

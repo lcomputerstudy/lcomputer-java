@@ -99,12 +99,6 @@ public class Ex03StringUtils {
 		String[] strArr2 = {"자바", "기본문법", "엘컴퓨터", "학원"};
 		System.out.println(String.join(", ", strArr2));
 		System.out.println();
-		
-		s1 = "abcd";
-		System.out.println(s1.getBytes().length);
-		s1 = "자바문법a1";
-		System.out.println(s1.getBytes().length);
-		System.out.println();
 	}
 
 }
