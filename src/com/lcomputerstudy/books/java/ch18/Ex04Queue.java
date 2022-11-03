@@ -10,11 +10,11 @@ import java.util.Queue;
 public class Ex04Queue {
 
 	public static void main(String[] args) {
-		QueueTicketDispenser.getTakeNum();
-		QueueTicketDispenser.getTakeNum();
-		QueueTicketDispenser.getTakeNum();
-		QueueTicketDispenser.getTakeNum();
-		QueueTicketDispenser.getTakeNum();
+		QueueTicketDispenser.takeNum();
+		QueueTicketDispenser.takeNum();
+		QueueTicketDispenser.takeNum();
+		QueueTicketDispenser.takeNum();
+		QueueTicketDispenser.takeNum();
 		
 		System.out.println("첫 번째 손님은 " + Restaurant.firstGuest() + "번 손님입니다.");
 		System.out.println();
@@ -33,7 +33,7 @@ public class Ex04Queue {
 class QueueTicketDispenser {
 	private static int num = 1;
 	
-	public static int getTakeNum() {
+	public static int takeNum() {
 		Restaurant.q.offer(num);
 		return num++;
 	}

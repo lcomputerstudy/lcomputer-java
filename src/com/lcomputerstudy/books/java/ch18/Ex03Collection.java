@@ -15,6 +15,7 @@ import java.util.List;
 import java.util.ListIterator;
 import java.util.Map;
 import java.util.Set;
+import java.util.TreeMap;
 import java.util.TreeSet;
 
 public class Ex03Collection {
@@ -27,6 +28,7 @@ public class Ex03Collection {
 		Set<Integer> treeSet = new TreeSet<>();
 		Map<Integer, Integer> hashMap = new HashMap<>();
 		Map<Integer, Integer> linkedHashMap = new LinkedHashMap<>();
+		Map<Integer, Integer> treeMap = new TreeMap<>();
 		
 		System.out.println("- 순차적 요소 추가 -");
 		Box.addBooksLast(arrayList);
@@ -36,6 +38,7 @@ public class Ex03Collection {
 		Box.addBooksLast(treeSet);
 		Box.addBooksLast(hashMap);
 		Box.addBooksLast(linkedHashMap);
+		Box.addBooksLast(treeMap);
 		System.out.println();
 		
 		System.out.println("- index 0에 요소 추가 -");
@@ -52,6 +55,7 @@ public class Ex03Collection {
 		Box.updateBooks(treeSet);
 		Box.updateBooks(hashMap);
 		Box.updateBooks(linkedHashMap);
+		Box.updateBooks(treeMap);
 		System.out.println();
 		
 		System.out.println("- 검색 iterator -");
@@ -62,6 +66,7 @@ public class Ex03Collection {
 		Box.getBooksIterator(treeSet);
 		Box.getBooksIterator(hashMap);
 		Box.getBooksIterator(linkedHashMap);
+		Box.getBooksIterator(treeMap);
 		System.out.println();
 		
 		System.out.println("- 검색 foreach -");
@@ -72,6 +77,7 @@ public class Ex03Collection {
 		Box.getBooksForEach(treeSet);
 		Box.getBooksForEach(hashMap);
 		Box.getBooksForEach(linkedHashMap);
+		Box.getBooksForEach(treeMap);
 		System.out.println();
 		
 		System.out.println("- 맨 뒤부터 삭제 -");
@@ -109,6 +115,7 @@ public class Ex03Collection {
 		Box.removeBooksIterator(treeSet);
 		Box.removeBooksIterator(hashMap);
 		Box.removeBooksIterator(linkedHashMap);
+		Box.removeBooksIterator(treeMap);
 		System.out.println();
 	}
 

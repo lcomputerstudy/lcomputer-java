@@ -4,13 +4,11 @@
 package com.lcomputerstudy.books.java.ch18;
 
 import java.util.Iterator;
-import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
-import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.LinkedBlockingQueue;
+import java.util.concurrent.ConcurrentLinkedQueue;
 
-public class Ex05BlockingQueue {
+public class Ex05ConcurrentLinkedQueue {
 
 	public static void main(String[] args) {
 		Thread printService = new Thread(new PrintService());
@@ -32,7 +30,7 @@ class Printer {
 
 class PrintService implements Runnable {
 	//public static Queue<Paper> q = new LinkedList<>();	// 쓰레드로 인한 오류 발생
-	public static BlockingQueue<Paper> q = new LinkedBlockingQueue<>();
+	public static Queue<Paper> q = new ConcurrentLinkedQueue<>();
 	
 	@Override
 	public void run() {
