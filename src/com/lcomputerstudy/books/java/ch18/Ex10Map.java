@@ -3,13 +3,9 @@
  */
 package com.lcomputerstudy.books.java.ch18;
 
-import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Iterator;
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
@@ -75,7 +71,20 @@ public class Ex10Map {
 	}
 }
 
+/*
+문제 1.
+1반 학생들의 이름, 점수가 저장된 맵과 2반 학생들의 이름, 점수가 저장된 맵을 만드세요.
+두 반의 모든 학생들을 중복 없이 출력하세요.
 
+문제 2.
+점수가 90점 이상인 학생들을 맵에서 삭제 후 출력하세요.
+
+문제 3.
+55점인 학생 모두 맵에서 삭제하세요.
+
+문제 4.
+100점인 학생이 존재하는 지 출력하세요.
+*/
 
 
 
