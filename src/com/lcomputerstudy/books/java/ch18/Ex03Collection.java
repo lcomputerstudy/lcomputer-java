@@ -26,9 +26,9 @@ public class Ex03Collection {
 		Set<Integer> hashSet = new HashSet<>();
 		Set<Integer> linkedHashSet = new LinkedHashSet<>();
 		Set<Integer> treeSet = new TreeSet<>();
-		Map<Integer, Integer> hashMap = new HashMap<>();
-		Map<Integer, Integer> linkedHashMap = new LinkedHashMap<>();
-		Map<Integer, Integer> treeMap = new TreeMap<>();
+		Map<Integer, Integer> hashMap = new HashMap<>();				// 키를 이용해 배열에 접근하는 방식으로 검색 속도가 빠름
+		Map<Integer, Integer> linkedHashMap = new LinkedHashMap<>();	// 입력된 순서대로 데이터가 저장돼야 하는 경우 사용
+		Map<Integer, Integer> treeMap = new TreeMap<>();				// 정렬 필요 시 사용
 		
 		System.out.println("- 순차적 요소 추가 -");
 		Box.addBooksLast(arrayList);
@@ -36,7 +36,7 @@ public class Ex03Collection {
 		Box.addBooksLast(hashSet);
 		Box.addBooksLast(linkedHashSet);
 		Box.addBooksLast(treeSet);
-		Box.addBooksLast(hashMap);
+		Box.addBooksLast(hashMap);			// 로드팩터에 의해 리사이징 되는 경우 속도가 느려짐
 		Box.addBooksLast(linkedHashMap);
 		Box.addBooksLast(treeMap);
 		System.out.println();
