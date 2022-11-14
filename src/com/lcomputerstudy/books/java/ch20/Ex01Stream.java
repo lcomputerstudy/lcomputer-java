@@ -141,6 +141,16 @@ public class Ex01Stream {
 						Collectors.averagingInt(Book::getPrice)));
 		System.out.println(books7);
 		System.out.println();
+		
+		// parallel stream
+		int sumBookPrice =
+			books
+				.parallelStream()
+				.filter(b -> b.getPrice() < 50000)
+				.mapToInt(Book::getPrice)
+				.sum();
+		System.out.println(sumBookPrice);
+		System.out.println();
 	}
 
 }
