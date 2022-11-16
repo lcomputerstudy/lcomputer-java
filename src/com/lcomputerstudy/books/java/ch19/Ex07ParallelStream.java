@@ -1,3 +1,6 @@
+/*
+ * Copyright 2022. 이신만 <rngooqw@gmail.com> All rights reserved.
+ */
 package com.lcomputerstudy.books.java.ch19;
 
 import java.util.ArrayList;
@@ -7,7 +10,7 @@ import java.util.concurrent.ConcurrentMap;
 import java.util.stream.Collectors;
 
 // 병렬 스트림
-public class Ex05ParallelStream {
+public class Ex07ParallelStream {
 
 	public static void main(String[] args) {
 		List<EBook2> ebooks = new ArrayList<>();
