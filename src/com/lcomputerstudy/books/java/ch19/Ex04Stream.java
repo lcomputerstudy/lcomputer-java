@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
+import java.util.Optional;
 import java.util.Random;
 import java.util.function.IntConsumer;
 import java.util.stream.IntStream;
@@ -47,6 +48,7 @@ public class Ex04Stream {
 		ebooks.add(new EBook("파이썬 기본문법", 33000, EBook.Category.LANG));
 		ebooks.add(new EBook("파이썬 기본문법", 33000, EBook.Category.LANG));
 		ebooks.add(new EBook("리눅스", 40000, EBook.Category.APP));
+		//ebooks.add(new EBook("데이터베이스", 50000, EBook.Category.APP));
 		
 		System.out.println("< forEach >");
 		ebooks
@@ -60,6 +62,49 @@ public class Ex04Stream {
 			.stream()
 			.filter(b -> b.getCategory().equals(EBook.Category.LANG))	// 중간연산 (intermediate operation)
 			.forEach(System.out::println);		// 최종연산 (terminal operation)
+		System.out.println();
+		
+		System.out.println("< findFirst >");
+		Optional<EBook> findFirstEB =
+			ebooks
+				.stream()
+				.filter(eb -> eb.getTitle().startsWith("자바"))
+				.findFirst();
+		System.out.println(findFirstEB);
+		System.out.println(findFirstEB.get());
+		System.out.println();
+		
+		System.out.println("< findAny >");
+		Optional<EBook> findAnyEB =
+			ebooks
+				.stream()
+				.filter(eb -> eb.getTitle().startsWith("자바"))
+				.findAny();
+		System.out.println(findAnyEB.get());
+		System.out.println();
+		
+		System.out.println("< anyMatch >");
+		boolean isMatched =
+			ebooks
+				.stream()
+				.anyMatch(eb -> eb.getTitle().startsWith("자바"));
+		System.out.println(isMatched);
+		System.out.println();
+		
+		System.out.println("< allMatch >");
+		boolean isMatched2 =
+			ebooks
+				.stream()
+				.allMatch(eb -> eb.getPrice() > 0);
+		System.out.println(isMatched2);
+		System.out.println();
+		
+		System.out.println("< noneMatch >");
+		boolean isMatched3 =
+			ebooks
+				.stream()
+				.noneMatch(eb -> eb.getTitle().startsWith("데"));
+		System.out.println(isMatched3);
 		System.out.println();
 		
 		System.out.println("< limit >");
