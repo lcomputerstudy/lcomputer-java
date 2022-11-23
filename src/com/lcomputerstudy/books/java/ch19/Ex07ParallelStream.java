@@ -100,6 +100,8 @@ class EBook2 implements Comparable<EBook2> {
 }
 
 /*
-문제 1.
-
+문제 1. 
+모든 책들의 정보를 책가격 기준 내림차순 정렬하여 출력하세요.
+패러렐 스트림을 이용해야 합니다.
+힌트) sorted와 Comparator를 사용하세요.
 */
