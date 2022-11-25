@@ -5,6 +5,7 @@ package com.lcomputerstudy.books.java.ch20;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
+import java.lang.annotation.Inherited;
 import java.lang.annotation.Repeatable;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -22,15 +23,21 @@ import java.util.Scanner;
 public class Ex01Annotation {
 
 	public static void main(String[] args) {
+		System.out.println("< Annotation 값 얻어 오기 >");
 		Settings settings = Ex01Annotation.class.getAnnotation(Settings.class);
 		System.out.println(settings.version());
 		System.out.println(Arrays.toString(settings.author()));
 		System.out.println();
 		
+		System.out.println("< @Repeatable >");
 		Role[] arrRole = Car.class.getAnnotationsByType(Role.class);
 		for (Role role : arrRole) {
 			System.out.println(role.value());
 		}
+		System.out.println();
+		
+		System.out.println("< @Inherited >");
+		System.out.println(Arrays.toString(NewCar.class.getAnnotations()));
 		System.out.println();
 		
 		Scanner scanner = new Scanner(System.in);
@@ -61,9 +68,6 @@ public class Ex01Annotation {
 		
 		// @Documented -> Javadoc
 		// @Inherited	
-		
-		
-		
 	}
 
 }
@@ -130,13 +134,15 @@ class OldCar {
    String[] author();
 }
 
+@Inherited
 @Repeatable(value = Roles.class)
 @Retention(RetentionPolicy.RUNTIME)
 @interface Role {
 	String value();
 }
 
-@Target(ElementType.TYPE)
+@Inherited
+@Target({ElementType.TYPE, ElementType.FIELD})
 @Retention(RetentionPolicy.RUNTIME)
 @interface Roles {
     Role[] value();
@@ -166,5 +172,5 @@ class OldCar {
 
 /*
 문제 1.
-
+필드에 @Autowired("원하는 내용") 어노테이션을 적용 할 경우 필드의 값을 value로 초기화하는 코드를 작성하세요. 
 */
