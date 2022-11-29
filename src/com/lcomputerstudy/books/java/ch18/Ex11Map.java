@@ -42,9 +42,9 @@ public class Ex11Map {
 		e6.addSkill(new Skill("React", 1));
 		
 		List<Employee> team2 = new ArrayList<>();
-		team1.add(e4);
-		team1.add(e5);
-		team1.add(e6);
+		team2.add(e4);
+		team2.add(e5);
+		team2.add(e6);
 		
 		Company company = new Company();
 		company.addTeam("A", team1);
