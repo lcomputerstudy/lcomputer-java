@@ -52,7 +52,7 @@ public class Ex02Array {
 		System.out.println("반별 학생별 국어, 영어 점수");
 		System.out.print("1반 영희: " + arr3[0][0][0] + "," + arr3[0][0][1] + "\n");
 		System.out.print("1반 철수: " + arr3[0][1][0] + "," + arr3[0][1][1] + "\n");
-		System.out.print("2반 둘리: " + arr3[1][0][0] + "," + arr3[0][0][1] + "\n");
+		System.out.print("2반 둘리: " + arr3[1][0][0] + "," + arr3[1][0][1] + "\n");
 		System.out.print("2반 길동: " + arr3[1][1][0] + "," + arr3[1][1][1] + "\n");
 		System.out.println();
 		
