@@ -41,7 +41,7 @@ public class Ex06Interface {
 		OrderService.orderPrint(car);
 		
 		//printService.setting();
-		PrintServiceForPrinter pfp = (PrintServiceForPrinter)car;
+		PrintServiceForPrinter pfp = car;
 		pfp.setting();
 		PrintServiceForPrinter.getPrinterType();
 		pfp.setPrinter();
