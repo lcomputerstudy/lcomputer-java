@@ -11,10 +11,10 @@ public class Ex04UncheckedException {
 		
 		File f = new File("./src/com/lcomputerstudy/books/java/ch12/hello.txt");
 		
-		//f.createNewFile();	// Checked Exception (복구 가능)
+		//f.createNewFile();	// Checked Exception
 		
 		int[] arr = {3, 7, 5};
-		System.out.println(arr[5]);		// Unchecked Exception (rollback)
+		System.out.println(arr[5]);		// Unchecked Exception
 
 	}
 
