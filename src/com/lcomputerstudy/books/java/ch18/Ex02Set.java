@@ -98,17 +98,14 @@ class Course {
 	}
 	
 	public Set<String> getBasicSubjects() {		
-		Set<String> sbj1 = null;
-		Set<String> sbj2 = null;
-		
-		for (int i=0; i<students.size()-1; i++) {
-			sbj1 = new HashSet<>(students.get(i).getSubjects());
-			sbj2 = new HashSet<>(students.get(i+1).getSubjects());
-			
-			sbj1.retainAll(sbj2);
+		Set<String> subjects = null;
+		for (Student student : students) {
+			if (subjects == null)
+				subjects = new HashSet<>(student.getSubjects());
+			subjects.retainAll(student.getSubjects());
 		}
 		
-		return sbj1;
+		return subjects;
 	}
 	
 	public Set<String> getCanceledSubjects() {
