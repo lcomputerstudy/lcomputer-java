@@ -14,7 +14,7 @@ public class Ex03TypeCasting {
 		float f = 3.14f;
 		System.out.println("float f = " + f);
 		float ff = (float)3.14;
-		System.out.println("float ff = " + f);
+		System.out.println("float ff = " + ff);
 		
 		double d2 = 7.12f;
 		System.out.println("double d2 = " + d2);
