@@ -20,7 +20,7 @@ public class Ex03Method {
 		
 		book2.printInfo();
 		
-		book2.setPrice(20000);	// 아규먼트 (인자)
+		book2.setPrice(20000);	// 아규먼트 (인수)
 		book2.printInfo();
 		
 		book2.setPrice(30000, 1.2f);
