@@ -3,8 +3,6 @@
  */
 package com.lcomputerstudy.books.java.ch05;
 
-import java.util.Scanner;
-
 // 중첩 if else문
 public class Ex04IfElse {
 
