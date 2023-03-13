@@ -98,11 +98,11 @@ http://lcomputerstudy.com
 - 10.4. 익명 클래스
 
 ## [챕터 11. Enum](https://github.com//lcomputerstudy/lcomputer-java/tree/main/src/com/lcomputerstudy/books/java/ch11)
-- 11.2. enum1
-- 11.3. enum2
-- 11.4~5. enum3
-- 11.6. Static 블럭
-- 11.7. 변수 유효 범위
+- 11.1. enum1
+- 11.2. enum2
+- 11.3~4. enum3
+- 11.5. Static 블럭
+- 11.6. 변수 유효 범위
 
 ## [챕터 12. 예외처리](https://github.com//lcomputerstudy/lcomputer-java/tree/main/src/com/lcomputerstudy/books/java/ch12)
 - 12.1. Exception
@@ -118,7 +118,7 @@ http://lcomputerstudy.com
 ## [챕터 13. Object 클래스](https://github.com//lcomputerstudy/lcomputer-java/tree/main/src/com/lcomputerstudy/books/java/ch13)
 - 13.1. Object 클래스
 - 13.2. equals 메서드
-- 13.2. hashCode 메서드
+- 13.3. hashCode 메서드
 
 ## [챕터 14. 문자열](https://github.com//lcomputerstudy/lcomputer-java/tree/main/src/com/lcomputerstudy/books/java/ch14)
 - 14.1. String 클래스
