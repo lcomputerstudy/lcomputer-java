@@ -1,10 +1,10 @@
 /*
  * Copyright 2022. 이신만 <rngooqw@gmail.com> All rights reserved.
  */
-package com.lcomputerstudy.books.java.ch11;
+package com.lcomputerstudy.books.java.ch10;
 
 // 익명 클래스
-public class Ex01AnonymousClass {
+public class Ex04AnonymousClass {
 
 	public static void main(String[] args) { 
 		Book b1 = new Book();

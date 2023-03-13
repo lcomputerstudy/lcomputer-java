@@ -4,7 +4,7 @@
 package com.lcomputerstudy.books.java.ch11;
 
 // 변수 유효 범위
-public class Ex07Scope {
+public class Ex06Scope {
 	static int iv = 2;
 
 	public static void main(String[] args) {

@@ -4,7 +4,7 @@
 package com.lcomputerstudy.books.java.ch11;
 
 // 정적 초기화 블록
-public class Ex06StaticBlock {
+public class Ex05StaticBlock {
 
 	public static void main(String[] args) {
 		Cart.print();
