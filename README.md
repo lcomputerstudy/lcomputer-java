@@ -7,7 +7,7 @@ http://lcomputerstudy.com
 
 #목차
 
-##[챕터 1. 변수](https://github.com//lcomputerstudy/lcomputer-java/tree/main/src/com/lcomputerstudy/books/java/ch01)
+##[챕터 1. 변수](https://github.com//lcomputerstudy/lcomputer-java/tree/main/src/com/lcomputerstudy/books/java/ch01) 
 - 1-1. 출력1 (Println)
 - 1-2. 출력2 (Println)
 - 1-3. 변수1
