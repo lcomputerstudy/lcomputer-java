@@ -1,4 +1,4 @@
-# lcomputer-java
+# 엘컴퓨터학원 교재
 Copyright 2022. 이신만 <rngooqw@gmail.com> All rights reserved.
 
 https://www.youtube.com/@lcomputerstudy
