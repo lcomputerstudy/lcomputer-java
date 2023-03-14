@@ -82,6 +82,7 @@ http://lcomputerstudy.com
 - 8.8. import
 - 8.9. final
 - 8.10. package
+- 8.11. Static 블럭
 
 ## [챕터 9. 객체지향3 (다형성, 추상화)](https://github.com//lcomputerstudy/lcomputer-java/tree/main/src/com/lcomputerstudy/books/java/ch09)
 - 9.1. 업캐스팅
@@ -96,13 +97,12 @@ http://lcomputerstudy.com
 - 10.2. Static 중첩 클래스
 - 10.3. 지역 클래스
 - 10.4. 익명 클래스
+- 10.5. 변수 유효 범위
 
 ## [챕터 11. Enum](https://github.com//lcomputerstudy/lcomputer-java/tree/main/src/com/lcomputerstudy/books/java/ch11)
 - 11.1. enum1
 - 11.2. enum2
 - 11.3~4. enum3
-- 11.5. Static 블럭
-- 11.6. 변수 유효 범위
 
 ## [챕터 12. 예외처리](https://github.com//lcomputerstudy/lcomputer-java/tree/main/src/com/lcomputerstudy/books/java/ch12)
 - 12.1. Exception

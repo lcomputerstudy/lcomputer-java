@@ -1,33 +1,33 @@
 /*
  * Copyright 2022. 이신만 <rngooqw@gmail.com> All rights reserved.
  */
-package com.lcomputerstudy.books.java.ch11;
+package com.lcomputerstudy.books.java.ch08;
 
 // 정적 초기화 블록
-public class Ex05StaticBlock {
+public class Ex11StaticBlock {
 
 	public static void main(String[] args) {
-		Cart.print();
+		Cart2.print();
 		
-		Book3 b1 = new Book3();
-		Book3 b2 = new Book3("자바 초기화 블럭");
-		Book3 b3 = new Book3("자바 static에 대하여", "엘컴퓨터학원");
+		Book9 b1 = new Book9();
+		Book9 b2 = new Book9("자바 초기화 블럭");
+		Book9 b3 = new Book9("자바 static에 대하여", "엘컴퓨터학원");
 		
-		Cart.add(b1);
-		Cart.add(b2);
-		Cart.add(b3);
+		Cart2.add(b1);
+		Cart2.add(b2);
+		Cart2.add(b3);
 		
-		Cart.print();
+		Cart2.print();
 	}
 
 }
 
-class Cart {
-	public static Book3[] books = new Book3[5];
+class Cart2 {
+	public static Book9[] books = new Book9[5];
 	private static int index = 0;
 	
 	static {
-		Book3 book = new Book3();
+		Book9 book = new Book9();
 		book.setTitle("비어있음");
 		book.setAuthor("비어있음");
 		
@@ -43,13 +43,13 @@ class Cart {
 		System.out.println();
 	}
 	
-	public static void add(Book3 book) {
+	public static void add(Book9 book) {
 		books[index] = book;
 		index++;
 	}
 }
 
-class Book3 {
+class Book9 {
 	private String title;
 	private String author;
 	private static int sequence = 0;
@@ -59,17 +59,17 @@ class Book3 {
 		bookNo = ++sequence;
 	}
 	
-	Book3() {
+	Book9() {
 		this("비어있음", "비어있음");
 		//bookNo = ++sequence;
 	}
 	
-	Book3(String title) {
+	Book9(String title) {
 		this(title, "작자미상");
 		//bookNo = ++sequence;
 	}
 	
-	Book3(String title, String author) {
+	Book9(String title, String author) {
 		this.title = title;
 		this.author = author;
 		//bookNo = ++sequence;

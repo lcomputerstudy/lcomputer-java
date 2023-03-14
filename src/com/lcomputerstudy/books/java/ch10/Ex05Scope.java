@@ -1,10 +1,10 @@
 /*
  * Copyright 2022. 이신만 <rngooqw@gmail.com> All rights reserved.
  */
-package com.lcomputerstudy.books.java.ch11;
+package com.lcomputerstudy.books.java.ch10;
 
 // 변수 유효 범위
-public class Ex06Scope {
+public class Ex05Scope {
 	static int iv = 2;
 
 	public static void main(String[] args) {
