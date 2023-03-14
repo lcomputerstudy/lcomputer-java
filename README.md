@@ -7,8 +7,6 @@ http://lcomputerstudy.com
 
 ---
 
-# 자바 강의 목차
-
 ## [챕터 1. 변수](https://github.com//lcomputerstudy/lcomputer-java/tree/main/src/com/lcomputerstudy/books/java/ch01) 
 - 1-1. 출력1 (Println)
 - 1-2. 출력2 (Println)
