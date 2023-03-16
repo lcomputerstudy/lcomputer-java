@@ -18,7 +18,7 @@ public class Ex04RelationalOperators {
 		System.out.printf("%d >= %d (%b)%n%n", b, c, b >= c);
 		System.out.printf("%d <= %d (%b)%n%n", a, c, a <= c);
 		System.out.printf("%d != %d (%b)%n%n", b, c, b != c);
-		System.out.printf("%d != %d (%b)%n%n", b, c, a != c);
+		System.out.printf("%d != %d (%b)%n%n", a, c, a != c);
 		
 	}
 
