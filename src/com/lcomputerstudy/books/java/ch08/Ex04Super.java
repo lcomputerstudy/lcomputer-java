@@ -50,5 +50,5 @@ class EBook3 extends Book4 {
 
 /*
 문제 1.
-이전 문제에서 만든 클래스에 this와 super를 적용한 뒤 각각의 값을 출력하세요. 
+this와 super에 대해 설명할 수 있는 코드를 작성하세요.
 */
