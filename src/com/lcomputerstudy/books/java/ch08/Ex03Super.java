@@ -33,7 +33,7 @@ class EBook2 extends Book3 {
 	String fontColor;
 
 	EBook2() {
-		super("언어 문법", "엘컴퓨터학원");
+		super("언어 문법", "엘컴퓨터학원"); 
 		this.fontColor = "블랙";
 	}
 
