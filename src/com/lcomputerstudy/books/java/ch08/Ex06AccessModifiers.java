@@ -66,7 +66,7 @@ setEdition 메소드의 오류를 수정하세요.
 Book클래스의 title 변수를 private로 수정 후 발생되는 main메소드의 오류를 수정하세요. 
 
 문제3.
-EBook5 클래스의 setPrice 메소드를 오버라이딩 하세요.
+EBook5 클래스에 Book클래스의 setPrice 메소드를 오버라이딩 하세요.
 e북은 입력된 가격보다 5000원 낮은 금액으로 price가 설정되어야 합니다.
 setPrice 메소드 내에서 setDollarPrice 메소드를 호출하여 dollarPrice를 설정하세요.
 setDollarPrice 메소드는 상속관계가 아닌 클래스에서 접근할 수 없어야 합니다.
