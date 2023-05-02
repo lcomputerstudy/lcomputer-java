@@ -44,20 +44,20 @@ public class Ex01Enum {
 		
 		/*
 		switch (payDay2) {
-		case 1:
+		case Day2.SUN:
 			System.out.println("1일은 오후 2시에 입금됩니다.");
 			break;
-		case 2:
+		case Day2.MON.getOrdinal():
 			System.out.println("2일은 오후 3시에 입금됩니다.");
 			break;
 		}
 		*/
 		
 		switch (payDay2.getOrdinal()) {
-		case Day1.SUN:
+		case 1:	// SUN
 			System.out.println("일요일은 오후 2시에 입금됩니다.");
 			break;
-		case Day1.MON:
+		case 2:	// MON
 			System.out.println("월요일은 오후 3시에 입금됩니다.");
 			break;
 		}
@@ -69,7 +69,8 @@ public class Ex01Enum {
 		System.out.println("- enum 사용");
 		
 		System.out.print("월급날의 요일을 숫자로 입력해 주세요 (일:1 ~ 토:7): ");
-		Day3 payDay3 = Day3.values()[s.nextInt()];
+		Day3 payDay3 = Day3.values()[s.nextInt()-1];
+		System.out.println(payDay3.name());
 		System.out.print("보너스 받는 달을 숫자로 입력해 주세요: ");
 		Month3 bonusMonth3 = Month3.values()[s.nextInt()];
 		
