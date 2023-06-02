@@ -3,7 +3,6 @@
  */
 package com.lcomputerstudy.books.java.ch18;
 
-import java.util.Iterator;
 import java.util.Queue;
 import java.util.Scanner;
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -37,13 +36,11 @@ class PrintService implements Runnable {
 		while (true) {
 			System.out.println("\n프린트 대기 중입니다...");
 			try {
-				for (Iterator<Paper> it = q.iterator(); it.hasNext(); ) {
-					Paper p = it.next();
-					
+				while (!q.isEmpty()) {
+					Paper p = q.poll();
 					System.out.println("\n프린트 중입니다...\n---");
 					Thread.sleep(3000);
 					System.out.println(p.getContents());
-					q.remove();
 					System.out.println("프린트가 완료되었습니다!!!");
 				}
 				Thread.sleep(3000);
