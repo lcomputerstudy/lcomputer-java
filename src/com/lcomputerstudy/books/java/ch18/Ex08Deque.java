@@ -9,7 +9,6 @@ import java.util.Iterator;
 
 public class Ex08Deque {
 
-
 	public static void main(String[] args) {
 		QueueTicketDispenser2.takeNum();
 		QueueTicketDispenser2.takeNum();
