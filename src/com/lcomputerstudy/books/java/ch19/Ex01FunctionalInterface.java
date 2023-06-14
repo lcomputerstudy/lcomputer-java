@@ -21,6 +21,15 @@ import java.util.function.UnaryOperator;
 public class Ex01FunctionalInterface {
 
 	public static void main(String[] args) {
+		System.out.println("< 익명클래스 >");
+		Supplier<Integer> as = new Supplier<Integer>() {
+			@Override
+			public Integer get() {
+				return (int)(Math.random()*10);
+			}
+		};
+		System.out.println(as.get());
+		
 		System.out.println("< Supplier >");
 		Supplier<Integer> s = () -> (int)(Math.random()*10);
 		System.out.println(s.get());
