@@ -55,8 +55,8 @@ public class Ex04Files {
 		System.out.println(String.format("%-20s", "exists(p1): ") + Files.exists(p1));
 		System.out.println(String.format("%-20s", "exists(p3): ") + Files.exists(p3));
 		System.out.println(String.format("%-20s", "isReadable: ") + Files.isReadable(p1));
-		System.out.println(String.format("%-20s", "isWritable: ") + Files.isReadable(p1));
-		System.out.println(String.format("%-20s", "isExecutable: ") + Files.isReadable(p1));
+		System.out.println(String.format("%-20s", "isWritable: ") + Files.isWritable(p1));
+		System.out.println(String.format("%-20s", "isExecutable: ") + Files.isExecutable(p1));
 		System.out.println();
 		
 		System.out.println("< 파일 정보 >");
