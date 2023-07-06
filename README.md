@@ -33,8 +33,8 @@ http://lcomputerstudy.com
 - 3.8. 할당 연산자
 
 ## [챕터 4. 배열](https://github.com//lcomputerstudy/lcomputer-java/tree/main/src/com/lcomputerstudy/books/java/ch04)
-- 3.1. 1차원 배열
-- 3.2. 다차원 배열
+- 4.1. 1차원 배열
+- 4.2. 다차원 배열
 
 ## [챕터 5. 제어문](https://github.com//lcomputerstudy/lcomputer-java/tree/main/src/com/lcomputerstudy/books/java/ch05)
 - 5.1. if문
